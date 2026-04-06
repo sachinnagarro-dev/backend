@@ -25,6 +25,3 @@ export class ConversationSession {
 }
 
 export const ConversationSessionSchema = SchemaFactory.createForClass(ConversationSession);
-
-// Indexes
-ConversationSessionSchema.index({ sessionId: 1 }); // Already unique, but explicit
