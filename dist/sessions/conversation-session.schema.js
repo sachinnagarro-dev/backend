@@ -48,5 +48,4 @@ exports.ConversationSession = ConversationSession = __decorate([
     (0, mongoose_1.Schema)({ timestamps: true })
 ], ConversationSession);
 exports.ConversationSessionSchema = mongoose_1.SchemaFactory.createForClass(ConversationSession);
-exports.ConversationSessionSchema.index({ sessionId: 1 });
 //# sourceMappingURL=conversation-session.schema.js.map
