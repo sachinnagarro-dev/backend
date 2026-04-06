@@ -9,11 +9,16 @@ Backend Take-Home Assignment for Voice AI Platform.
    ```bash
    npm install
    ```
-3. Start MongoDB:
+3. Configure environment variables:
+   - Copy `.env` file and update MongoDB URI if needed:
+     ```
+     MONGODB_URI=mongodb://localhost:27017/conversation-db
+     ```
+4. Start MongoDB:
    ```bash
    docker run -d --name mongodb -p 27017:27017 mongo:latest
    ```
-4. Run the application:
+5. Run the application:
    ```bash
    npm run start:dev
    ```
